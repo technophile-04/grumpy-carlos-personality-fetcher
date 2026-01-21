@@ -5,15 +5,15 @@
 import { Octokit } from "octokit";
 import type { Config } from "../types.js";
 
-let octokitInstance: Octokit | null = null;
-
-export function getOctokit(config: Config): Octokit {
-  if (!octokitInstance) {
-    octokitInstance = new Octokit({
-      auth: config.githubToken,
-    });
-  }
-  return octokitInstance;
+/**
+ * Create a new Octokit instance.
+ * We intentionally create a new instance each time to avoid hidden state
+ * and make testing easier.
+ */
+export function createOctokit(config: Config): Octokit {
+  return new Octokit({
+    auth: config.githubToken,
+  });
 }
 
 export async function checkRateLimit(octokit: Octokit): Promise<{

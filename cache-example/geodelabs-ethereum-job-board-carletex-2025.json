@@ -1,0 +1,476 @@
+{
+  "repo": {
+    "owner": "geodelabs",
+    "repo": "ethereum-job-board",
+    "fullName": "geodelabs/ethereum-job-board"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:41:24.279Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 11,
+      "prTitle": "PR #11",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/11",
+      "type": "issue_comment",
+      "body": "Only one reviewer allowed! cc @technophile-04 @Pabl0cks ",
+      "createdAt": "2025-02-19T18:50:22.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/11#issuecomment-2669492165"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 13,
+      "prTitle": "PR #13",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/13",
+      "type": "issue_comment",
+      "body": "@Pabl0cks Could you add in another PR the details for this to the README? (as in the PR description)",
+      "createdAt": "2025-03-03T17:30:00.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/13#issuecomment-2695089751"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 13,
+      "prTitle": "PR #13",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/13",
+      "type": "issue_comment",
+      "body": "+ add the empty env variables (commented out maybe) with a good description in one of the `.env` files",
+      "createdAt": "2025-03-03T17:31:09.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/13#issuecomment-2695092529"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 12,
+      "prTitle": "job posting + basic admin flow",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/12",
+      "type": "review",
+      "body": "This is great Shiv! We don't need anything else for the first iteration.\r\n\r\nI pushed https://github.com/geodework/ethereum-job-board/pull/12/commits/29d56265006ade99e208f3fa210c08a6b54b9a49:\r\n\r\n- Only showing published jobs in the homepage (decided to create another repo function for it, instead of a param, since we might want published / not published / all)\r\n- Added `published: true` for data imported from the CSV.\r\n- A little tweak on the badge color :D\r\n\r\nMerging, thanks!!!",
+      "createdAt": "2025-03-03T17:58:31.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/12#pullrequestreview-2654850837",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 15,
+      "prTitle": "Add data import explanations to Readme and env vars to `.env.development`",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/15",
+      "type": "review",
+      "body": "Great stuff. Thanks Pablo!",
+      "createdAt": "2025-03-04T10:24:49.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/15#pullrequestreview-2656833791",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 16,
+      "prTitle": "Add wipe script and commands to wipe or wipe+import",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/16",
+      "type": "review_comment",
+      "body": "A couple of questions:\r\n\r\n1. Is it possible to make this dynamic? (delete the data from all the tables, without the need of hardcoding  companies, jobs). Not a big deal, but it'd be nice if possible\r\n2. Deleting the data is enough, right? If we change the schema, we can wipe the data + drizzle push, right? (I mean, no need to delete the actual tables)",
+      "createdAt": "2025-03-04T18:18:35.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/16#discussion_r1979982001",
+      "path": "packages/nextjs/services/database/wipeDbContent.ts",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 16,
+      "prTitle": "Add wipe script and commands to wipe or wipe+import",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/16",
+      "type": "review_comment",
+      "body": "Thinking if we need this, since you might want to do something else after wipe content. \r\n\r\nBut it's a nice idea to have a command to do the full set up. but maybe we need:\r\n\r\n`yarn db:wipe-content && yarn drizzle-kit push && yarn db:import-sheet`?",
+      "createdAt": "2025-03-04T18:21:48.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/16#discussion_r1979986645",
+      "path": "packages/nextjs/package.json",
+      "line": 11
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 16,
+      "prTitle": "Add wipe script and commands to wipe or wipe+import",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/16",
+      "type": "review_comment",
+      "body": "How easy is it to add a confirmation?\r\n\r\nSomething like:\r\n\r\n\"This will delete all the data from the Database. Are you sure... blahblah?\"\r\n\r\nAnd then click Enter or Y or whatever to proceed.",
+      "createdAt": "2025-03-04T18:22:45.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/16#discussion_r1979987917",
+      "path": "packages/nextjs/services/database/wipeDbContent.ts",
+      "line": 34
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 16,
+      "prTitle": "Add wipe script and commands to wipe or wipe+import",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/16",
+      "type": "review_comment",
+      "body": "Had to add 4e98a0588ba6 to exit the process with an error code.\r\n\r\nIf not, even if you cancel the \"wipe\" the other commands (push & import sheet) will still run.\r\n\r\n",
+      "createdAt": "2025-03-05T17:50:49.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/16#discussion_r1981895167",
+      "path": "packages/nextjs/services/database/wipeDbContent.ts",
+      "line": 34
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 16,
+      "prTitle": "Add wipe script and commands to wipe or wipe+import",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/16",
+      "type": "review",
+      "body": "This is pretty handy!! Pushed a couple of little tweaks and this is ready to merge.\r\n\r\nThanks Pablo!!",
+      "createdAt": "2025-03-05T18:03:04.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/16#pullrequestreview-2661967654",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 18,
+      "prTitle": "(draft) initial design iteration",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/18",
+      "type": "review",
+      "body": "Looking great! Let's keep iterating",
+      "createdAt": "2025-03-13T11:36:43.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/18#pullrequestreview-2681555454",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 19,
+      "prTitle": "Adjusting Homepage Spacing and Stickers",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/19",
+      "type": "review",
+      "body": "Thank you, good stuff!",
+      "createdAt": "2025-03-14T10:55:49.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/19#pullrequestreview-2685143149",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 21,
+      "prTitle": "Update Favicon and OG Image",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/21",
+      "type": "review",
+      "body": "Thank you!!",
+      "createdAt": "2025-03-14T20:53:00.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/21#pullrequestreview-2686797952",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 22,
+      "prTitle": "Mobile style adjustment",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/22",
+      "type": "review",
+      "body": "Looking better now on mobile!\r\n\r\nThanks Hunter",
+      "createdAt": "2025-03-17T11:02:00.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/22#pullrequestreview-2690049259",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 23,
+      "prTitle": "PR #23",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/23",
+      "type": "issue_comment",
+      "body": "This is looking great @ChangoMan ! Thank you.\r\n\r\nA few comments / ideas:\r\n\r\n- Let's change \"Future Advertisement Here\" => \"Your Ad here\" (or Advertisement)\r\n- Could we add a smaller ad section here? (between companies and newsletter)\r\n![image](https://github.com/user-attachments/assets/9618c7a2-54e0-4d60-ba8b-f2a0271ad558)\r\n- Could we add a \"Your featured job post here\" at the top of the list?\r\n![image](https://github.com/user-attachments/assets/e20fa778-a655-4b29-961d-373f1e381809)\r\n- This is the multisig for the donations: 0xb66879142aE4f8B4C0A11B773942499831367606 (live in multiple networks). Not sure what's the best option to handle this. For now a link to Etherescan / Rainbow could be good (and then we can thing about building somehting ourselves, like a page with a QR / connect wallet / whatever)\r\n- Could you change the style of the \"Donate\" link? Instead of a regular link, a button with some background.\r\n\r\n\r\nI think all of these are small things, but also feel free to leave stuff for the next PR.\r\n\r\nThanks man!\r\n\r\n",
+      "createdAt": "2025-03-25T08:47:04.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/23#issuecomment-2750518747"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 23,
+      "prTitle": "PR #23",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/23",
+      "type": "issue_comment",
+      "body": "Linking Donate to address vision is cool too, no? https://address.vision/0xb66879142aE4f8B4C0A11B773942499831367606",
+      "createdAt": "2025-03-25T08:47:41.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/23#issuecomment-2750520483"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 23,
+      "prTitle": "Adding Footer",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/23",
+      "type": "review",
+      "body": "Thanks Hunter, looking great!\r\n\r\nJust pushed a couple of little tweaks. Merging!",
+      "createdAt": "2025-03-26T09:45:52.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/23#pullrequestreview-2716490731",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 30,
+      "prTitle": "Change web3 to Ethereum in images",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/30",
+      "type": "review",
+      "body": "That was fast!! Thanks man",
+      "createdAt": "2025-04-07T16:00:40.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/30#pullrequestreview-2747359082",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 33,
+      "prTitle": "Style Newsletter Widget",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/33",
+      "type": "review",
+      "body": "Thanks, Hunter. Great stuff",
+      "createdAt": "2025-04-15T08:29:01.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/33#pullrequestreview-2767345539",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 36,
+      "prTitle": "PR #36",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/36",
+      "type": "issue_comment",
+      "body": "Thanks Shiv!! Latest updates work great.",
+      "createdAt": "2025-05-07T13:35:29.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/36#issuecomment-2858642270"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 42,
+      "prTitle": "use slug for companies and jobs",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/42",
+      "type": "review_comment",
+      "body": "I think jobName is required so it should be needed in the condition.",
+      "createdAt": "2025-06-04T10:12:39.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/42#discussion_r2126233396",
+      "path": "packages/nextjs/services/database/repositories/jobs.ts",
+      "line": 13
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 42,
+      "prTitle": "use slug for companies and jobs",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/42",
+      "type": "review_comment",
+      "body": "jobName is required, so I think we don't need this `if`.",
+      "createdAt": "2025-06-04T10:14:56.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/42#discussion_r2126237389",
+      "path": "packages/nextjs/services/database/repositories/jobs.ts",
+      "line": 26
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 42,
+      "prTitle": "use slug for companies and jobs",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/42",
+      "type": "review_comment",
+      "body": "If you update the company, this will generate an incorrect slug (it will use the old company name).\r\n\r\nMaybe a better approach is to compare the name & company from `job` and `existingJob`. If they are !=, then generate a new slug, if not, don't update it.\r\n\r\n",
+      "createdAt": "2025-06-04T10:17:16.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/42#discussion_r2126241151",
+      "path": "packages/nextjs/services/database/repositories/jobs.ts",
+      "line": 31
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 42,
+      "prTitle": "use slug for companies and jobs",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/42",
+      "type": "review_comment",
+      "body": "Is this what they call AI safety?? hahah. Nice edge cases haha",
+      "createdAt": "2025-06-04T10:18:00.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/42#discussion_r2126242347",
+      "path": "packages/nextjs/utils/slug.ts",
+      "line": 23
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 42,
+      "prTitle": "use slug for companies and jobs",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/42",
+      "type": "review_comment",
+      "body": "Oh, it's a <Partial>, sorry",
+      "createdAt": "2025-06-04T10:27:34.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/42#discussion_r2126261069",
+      "path": "packages/nextjs/services/database/repositories/jobs.ts",
+      "line": 26
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 42,
+      "prTitle": "use slug for companies and jobs",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/42",
+      "type": "review_comment",
+      "body": "pushed 2d88d42141ce and aff99b18db79 with some updates. Made company mandatory + some tweak on the repositories.\r\n\r\n\r\n",
+      "createdAt": "2025-06-04T10:54:22.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/42#discussion_r2126306661",
+      "path": "packages/nextjs/services/database/repositories/jobs.ts",
+      "line": 31
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 42,
+      "prTitle": "PR #42",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/42",
+      "type": "issue_comment",
+      "body": "Re-imported live and everything seems to be working. Thanks Shiv!!",
+      "createdAt": "2025-06-04T11:09:23.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/42#issuecomment-2939609539"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 51,
+      "prTitle": "PR #51",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/51",
+      "type": "issue_comment",
+      "body": "cc @francideng ",
+      "createdAt": "2025-07-02T14:38:12.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/51#issuecomment-3028132919"
+    },
+    {
+      "repo": {
+        "owner": "geodelabs",
+        "repo": "ethereum-job-board",
+        "fullName": "geodelabs/ethereum-job-board"
+      },
+      "prNumber": 54,
+      "prTitle": "PR #54",
+      "prUrl": "https://github.com/geodelabs/ethereum-job-board/pull/54",
+      "type": "issue_comment",
+      "body": "@iberras you can test it by following the Vercel Preview link in the PR\r\n\r\n<img width=\"1190\" height=\"373\" alt=\"image\" src=\"https://github.com/user-attachments/assets/523a3f0d-5c89-4fa1-bbc5-e264b6190e05\" />\r\n\r\nAt some point, it might be good if you set up the env locally so you can test better, but for these kind of small PRs, \"Vercel previews\" should be fine\r\n\r\nthanks!",
+      "createdAt": "2025-07-23T08:08:31.000Z",
+      "author": "carletex",
+      "url": "https://github.com/geodelabs/ethereum-job-board/pull/54#issuecomment-3106405857"
+    }
+  ]
+}

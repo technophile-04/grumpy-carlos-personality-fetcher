@@ -109,8 +109,10 @@ async function fetchPRReviews(
         });
       }
     }
-  } catch {
-    // PR may have been deleted or inaccessible
+  } catch (error) {
+    // PR may have been deleted or inaccessible - log for debugging
+    const message = error instanceof Error ? error.message : String(error);
+    console.warn(`[warn] Failed to fetch reviews for PR #${prNumber}: ${message}`);
   }
 
   return items;

@@ -1,0 +1,385 @@
+{
+  "repo": {
+    "owner": "scaffold-eth",
+    "repo": "se-2-challenges",
+    "fullName": "scaffold-eth/se-2-challenges"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:30:11.287Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 278,
+      "prTitle": "Base challenge template for extensions",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/278",
+      "type": "review_comment",
+      "body": "I think this is something you can configure in your IDE (e.g. \"Insert Newline at the End of Files\")\r\n\r\nIt's just a convention / good practice we follow",
+      "createdAt": "2025-03-17T14:43:24.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/278#discussion_r1998909930",
+      "path": "extension/README.md.args.mjs",
+      "line": 80
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 291,
+      "prTitle": "PR #291",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/291",
+      "type": "issue_comment",
+      "body": "[0.2.1](https://github.com/scaffold-eth/create-eth/pull/257) is released. Merging! Thanks!!",
+      "createdAt": "2025-05-12T15:22:26.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/291#issuecomment-2873005289"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 291,
+      "prTitle": "PR #291",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/291",
+      "type": "issue_comment",
+      "body": "Sorry @escottalexander I went ahead of myself. I missed your comment!\r\n\r\nI released 0.2.1 + tested the command, and seemed to work.... so I just hit the button \r\n\r\nBut please double-check if everything works as expected!",
+      "createdAt": "2025-05-12T15:24:53.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/291#issuecomment-2873012460"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 292,
+      "prTitle": "fix typo for auto grader",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/292",
+      "type": "review",
+      "body": "Thanks!",
+      "createdAt": "2025-05-23T07:36:52.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/292#pullrequestreview-2863503636",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 297,
+      "prTitle": "PR #297",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/297",
+      "type": "issue_comment",
+      "body": "Hey Elliott, thanks for this!\r\n\r\nPablo raised an interesting point. We decided that the best way to go is: release a new version of create-eth (0.2.3 that will fix some issues) + update the OCL extension so use the new tailwind config.\r\n\r\nWe are working on it right now! Let's see if we can publish today.\r\n\r\nThanks!",
+      "createdAt": "2025-06-13T08:31:33.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/297#issuecomment-2969535233"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 297,
+      "prTitle": "PR #297",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/297",
+      "type": "issue_comment",
+      "body": "Great stuff! Let's do a couple of rounds of testing with 0.2.3 (when released). In the meantime, I'll be preparing the SRE side of things\r\n\r\nThanks all!",
+      "createdAt": "2025-06-13T10:16:10.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/297#issuecomment-2969852857"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 317,
+      "prTitle": "Changes of OCL challenge which was reverted",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/317",
+      "type": "review",
+      "body": "Updated autograder: https://github.com/austintgriffith/speedrun-grader/issues/18#issuecomment-3018527435\r\n\r\nMerging!",
+      "createdAt": "2025-06-30T14:04:07.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/317#pullrequestreview-2971374133",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 295,
+      "prTitle": "PR #295",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/295",
+      "type": "issue_comment",
+      "body": "sorry, busy day!\r\n\r\nI'll update the autograder tomorrow.\r\n\r\nThanks all!",
+      "createdAt": "2025-07-09T16:11:27.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/295#issuecomment-3053238349"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 334,
+      "prTitle": "Update simple nft contract",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/334",
+      "type": "review_comment",
+      "body": "Are we using different coding standards than in other contracts? 2 vs 4 spaces, etc",
+      "createdAt": "2025-07-23T14:28:15.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/334#discussion_r2225788248",
+      "path": "extension/packages/hardhat/contracts/YourCollectible.sol",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 334,
+      "prTitle": "PR #334",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/334",
+      "type": "issue_comment",
+      "body": "This looks great to me, Rinat! Just added a comment about formatting.\r\n\r\nTagging @Pabl0cks @escottalexander @phipsae to see if any of them can take a quick look (context https://github.com/scaffold-eth/se-2-challenges/issues/333) before merging.",
+      "createdAt": "2025-07-23T14:40:22.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/334#issuecomment-3108945838"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 323,
+      "prTitle": "PR #323",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/323",
+      "type": "issue_comment",
+      "body": "oh @rin-st \r\n\r\nJust realized that we'd also need to update this: https://github.com/scaffold-eth/create-eth/blob/main/src/extensions.json. Not sure if it was already in your list.\r\n\r\nWhich means that we need to release a new version + test all the challenges with it + update README install instructions for each challenge? 😅 \r\n\r\nAs you said, we don't need to do it all at the same time since both branches (with number and without number) will exist... but if we want to remove the numbered branches (we should!), this is required.",
+      "createdAt": "2025-07-24T06:23:03.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/323#issuecomment-3112198793"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 323,
+      "prTitle": "PR #323",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/323",
+      "type": "issue_comment",
+      "body": "Created https://github.com/scaffold-eth/create-eth/pull/321",
+      "createdAt": "2025-07-24T06:48:18.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/323#issuecomment-3112253572"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 351,
+      "prTitle": "PR #351",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/351",
+      "type": "issue_comment",
+      "body": "Let me merge this later today, so I'll update the autograder",
+      "createdAt": "2025-08-14T09:32:00.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/351#issuecomment-3187763017"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 351,
+      "prTitle": "PR #351",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/351",
+      "type": "issue_comment",
+      "body": "Autograder updated! tested it with the contract that Elliott provided (which, interestingly, was also working with the previous test)\r\n\r\nthanks guys!",
+      "createdAt": "2025-08-15T08:35:14.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/351#issuecomment-3190952008"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 355,
+      "prTitle": "Grader update challenge gh action",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/355",
+      "type": "review_comment",
+      "body": "I think `secrets.AUTOGRADER_API_KEY` is a better name?\r\n\r\nWill test this today, I want to try `act`!",
+      "createdAt": "2025-08-29T09:19:52.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/355#discussion_r2309650820",
+      "path": ".github/workflows/grader-update-challenge.yaml",
+      "line": 58
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 355,
+      "prTitle": "Grader update challenge gh action",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/355",
+      "type": "review_comment",
+      "body": "yep, that's a bit clearer if you want!",
+      "createdAt": "2025-08-29T10:03:02.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/355#discussion_r2309746830",
+      "path": ".github/workflows/grader-update-challenge.yaml",
+      "line": 58
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 361,
+      "prTitle": "PR #361",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/361",
+      "type": "issue_comment",
+      "body": "I think we can merge this PR if it's ready, since it won't break anything (and one less thing to coordinate when publishing)",
+      "createdAt": "2025-10-01T09:00:18.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/361#issuecomment-3355391964"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 371,
+      "prTitle": "PR #371",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/371",
+      "type": "issue_comment",
+      "body": "Nice PR 🤣\r\n\r\n(we are just testing github actions)",
+      "createdAt": "2025-10-10T06:14:53.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/371#issuecomment-3388428880"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 355,
+      "prTitle": "Grader update challenge gh action",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/355",
+      "type": "review_comment",
+      "body": "Let's remove this too",
+      "createdAt": "2025-10-10T07:02:45.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/355#discussion_r2418704779",
+      "path": ".github/workflows/grader-update-challenge.yaml",
+      "line": 14
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 355,
+      "prTitle": "Grader update challenge gh action",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/355",
+      "type": "review_comment",
+      "body": "Same comment as in https://github.com/scaffold-eth/se-2-challenges/issues/349#issuecomment-3388561612\r\n\r\nNot sure if we can remove it",
+      "createdAt": "2025-10-10T07:03:03.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/355#discussion_r2418705284",
+      "path": ".github/workflows/grader-update-challenge.yaml",
+      "line": 23
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 355,
+      "prTitle": "PR #355",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/355",
+      "type": "issue_comment",
+      "body": "Hey Rinat, left a couple of comments. After reviewing that, we could merge into main and a challenge to test live.\r\n\r\nAlready added the secrets to the repo.\r\n\r\n",
+      "createdAt": "2025-10-10T07:04:16.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/355#issuecomment-3388567070"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 353,
+      "prTitle": "PR #353",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/353",
+      "type": "issue_comment",
+      "body": "Yep, I think we'd need to rebase the branch and then the PR.\r\n\r\n(This allows easier backmerges)",
+      "createdAt": "2025-10-10T09:29:14.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/353#issuecomment-3389063557"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 353,
+      "prTitle": "PR #353",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/353",
+      "type": "issue_comment",
+      "body": "Oh, since this is not published yet, we could also merge when ready and rebase after.",
+      "createdAt": "2025-10-10T12:16:27.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/353#issuecomment-3389778961"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-challenges",
+        "fullName": "scaffold-eth/se-2-challenges"
+      },
+      "prNumber": 372,
+      "prTitle": "PR #372",
+      "prUrl": "https://github.com/scaffold-eth/se-2-challenges/pull/372",
+      "type": "issue_comment",
+      "body": "Worked perfectly for the tokenization challenge!\r\n\r\n<img width=\"1208\" height=\"119\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a40eb280-de4e-409d-8c62-a181cf727e5d\" />\r\n\r\nThanks @rin-st !!\r\n",
+      "createdAt": "2025-10-14T10:12:45.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-challenges/pull/372#issuecomment-3401088480"
+    }
+  ]
+}

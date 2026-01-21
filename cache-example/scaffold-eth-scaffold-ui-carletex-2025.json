@@ -1,0 +1,353 @@
+{
+  "repo": {
+    "owner": "scaffold-eth",
+    "repo": "scaffold-ui",
+    "fullName": "scaffold-eth/scaffold-ui"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T13:06:25.252Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 2,
+      "prTitle": "enviorment setup + inital iteration",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/2",
+      "type": "review",
+      "body": "Had a lot of fun with this Shiv!! Thank you for fixing all the remaing stuff.\r\n\r\nI'm going to merge this and probably rebase and create `main` (since we didn't do it) so it starts clean",
+      "createdAt": "2025-03-24T10:02:07.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/2#pullrequestreview-2709807706",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 2,
+      "prTitle": "PR #2",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/2",
+      "type": "issue_comment",
+      "body": "(Merging since this is still a test enviroment, we can fix in future PRs)",
+      "createdAt": "2025-03-24T10:02:34.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/2#issuecomment-2747546619"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 2,
+      "prTitle": "PR #2",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/2",
+      "type": "issue_comment",
+      "body": "`main` is live",
+      "createdAt": "2025-03-24T10:08:00.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/2#issuecomment-2747563182"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 7,
+      "prTitle": "Balance component",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/7",
+      "type": "review_comment",
+      "body": "We are exporting this already for user.s...should it live in its own folder? or should it live in utils?\r\n\r\nThis will also be used in multiple hooks (At least in `useEtherInput`)\r\n\r\nwdyt?\r\n\r\n\r\n",
+      "createdAt": "2025-07-04T11:28:37.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/7#discussion_r2185114608",
+      "path": "packages/hooks/src/balance/useFetchNativeCurrencyPrice.ts",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 7,
+      "prTitle": "Balance component",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/7",
+      "type": "review",
+      "body": "This looks amazing Shiv! Love the examples too.\r\n\r\nJust left a comemnt / question",
+      "createdAt": "2025-07-04T11:29:54.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/7#pullrequestreview-2986776204",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 11,
+      "prTitle": "PR #11",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/11",
+      "type": "issue_comment",
+      "body": "Thanks both for the feedback!!! Super helpful.\r\n\r\nRegarding the **rounding error**: I explored your suggestions and ended up with: https://github.com/scaffold-eth/scaffold-ui/pull/11/commits/c112f2812301c34f0aa52f75ed37155771e73236.\r\n\r\nIt's basically separating the display mode (what currency the UI shows) from the source mode (what currency the typed value represents). Now, toggling only flips the display without mutating the original typed value (eliminating the floating error). The component preserves the user's exact input until they actually start typing in the opposite currency mode (where we switch the source currency to match what they're now editing). \r\n\r\nIt's making the component \"smarter\" and leaving the hook as it is (removing the activeValue).\r\n\r\nWdyt?\r\n\r\n> What do you think guys about keeping InputBase in components and building EtherInput/AddressInput/maybe more on top of it the same way as it was before, so our inputs will have the same styles? It could be internal component without import\r\n\r\nYes! I think this is good idea. I might copy it from your PR.\r\n\r\n> Not sure though if we should have two components ( internal controlled / uncontrolled).\r\n\r\noh no! Agree. My plan was just to create it in the PR so we can compare and test... but once we decide, let's remove the one we don't like.\r\n\r\nAlso, I think the decision is between: internally controlled (current PR, controlled inside the component) VS externally controlled (controlled by the user of the component). I don't think we want to do _uncontrolled_ (but happy to test if you think it's worth it!)\r\n\r\nI guess what we decide should be applied to #12 too?\r\n\r\n> useEtherInput has nothing about input. Probably we could name hooks differently. For example if name it like useEthUsdConvertation, it can be used not only in inputs\r\n\r\nAlso thought about this when creating it. Agree that's not the best naming... but in the other hand, having a the correlation between component / hook can make sense? I'm 50/50 on it :D\r\n\r\nrelated: do we need `useAddressInput` hook? Or could we just have `useAddress` hook and then `Address` and `AddressInput` components using that hook?\r\n\r\nSorry, opening a lot of threads in the discussion haha\r\n\r\nBut thank you, this is super enriching 👾",
+      "createdAt": "2025-07-07T17:12:59.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/11#issuecomment-3045968759"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 11,
+      "prTitle": "PR #11",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/11",
+      "type": "issue_comment",
+      "body": "> Now it works well! The only thing I noticed is that onValueChange triggers on every EtherInput's parent rerender. So the function passed to onValueChange should be memoized to avoid that.\r\n\r\nGood catch!\r\n\r\nI think this fixes it https://github.com/scaffold-eth/scaffold-ui/pull/11/commits/2c684b758679d1c20e06d4084e48522d5397eb5d (and the parent doesn't need to use a useCallback!). I've never used that patter before for this, but make sense?\r\n\r\n**internall vs externally controlled**\r\n\r\nI've been tinkering and I haven't come to a solution that I like. To make it externally controlled, you still need to pass back the converted value to the user of the component, so you have a bunch of \"onChangeFunction\" (value, mode, conversion). \r\n\r\nSo my current take is (as Shiv mentioned in his comment too): Have it internally controlled (super easy to use, just a drop-in component / widget). If you want full control, you have the hook!\r\n\r\nBut I might be missing something! \r\n\r\n---\r\n\r\nI'm gonna add some props (like defaultValue as Rinat suggested) to make it more functional.\r\n\r\nAlso will add the InputBase from Rinat.",
+      "createdAt": "2025-07-08T10:00:13.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/11#issuecomment-3048203898"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 11,
+      "prTitle": "PR #11",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/11",
+      "type": "issue_comment",
+      "body": "Update:\r\n\r\n- Added props to the internally controlled component\r\n- Added switch icon (not sure if that's is the best place to add, but remember Shiv telling something about NOT placing stuff src)\r\n\r\nRegarding styling / InputBase. Should we do that in another PR after we merge Rinat's #12 ? OR should we just go ahead and do it here?",
+      "createdAt": "2025-07-08T10:13:29.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/11#issuecomment-3048264863"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 11,
+      "prTitle": "Ether Input",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/11",
+      "type": "review_comment",
+      "body": "I think we should remove this. And then, if we want to allow users to configure the MAX_DECIMALS...we can add it as a hook option.\r\n\r\nBut not sure how useful that is (you always want USD with 2 decimals?)\r\n\r\nOpen!",
+      "createdAt": "2025-07-08T10:16:08.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/11#discussion_r2192075888",
+      "path": "packages/hooks/src/useEtherInput.ts",
+      "line": 4
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 11,
+      "prTitle": "PR #11",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/11",
+      "type": "issue_comment",
+      "body": "> I think let's make it in another PR. For now I just hardcoded some styles/colors but I think we'll need possibility to customize it by using props. We can discuss it in related issue/PR\r\n\r\nAgree!\r\n\r\n(This is not live yet, I guess it's fine to merge things that are not optimized yet)\r\n\r\n> Noticed one more thing: we're allowing to write symbols other than numbers and I think it's better to fix that\r\n\r\nFixed on https://github.com/scaffold-eth/scaffold-ui/pull/11/commits/4ea15dfd70bd06e658e7076a8a5111821bffbd03\r\n(using the regex from SE-2)",
+      "createdAt": "2025-07-08T13:25:40.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/11#issuecomment-3048966438"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 11,
+      "prTitle": "Ether Input",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/11",
+      "type": "review_comment",
+      "body": "So I removed the comment, but I guess it's fine if keep the CONSTANT. Just for legibility, instead of a random \"2\" in the formula :D",
+      "createdAt": "2025-07-08T13:26:22.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/11#discussion_r2192532102",
+      "path": "packages/hooks/src/useEtherInput.ts",
+      "line": 4
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 11,
+      "prTitle": "PR #11",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/11",
+      "type": "issue_comment",
+      "body": "> I can set USD like 12.3456 with more than two decimals, and when converting usd -> eth -> usd, value remains the same. Not sure if we should allow to write more than two decimals for usd\r\n> This logic handles this https://github.com/scaffold-eth/scaffold-eth-2/blob/5b55892cf1f305720ca5769831c1c3afb672a7b8/packages/nextjs/components/scaffold-eth/Input/EtherInput.tsx#L80-L85\r\n\r\nJust pushed https://github.com/scaffold-eth/scaffold-ui/pull/11/commits/c4ca6c4603cbcdb6c07564c9ff2a3ac40c223374\r\n\r\nThanks all!",
+      "createdAt": "2025-07-09T08:08:50.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/11#issuecomment-3051612799"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 18,
+      "prTitle": "fix: address component not resolving ens and avatar",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/18",
+      "type": "review",
+      "body": "Working great!!",
+      "createdAt": "2025-07-23T07:20:40.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/18#pullrequestreview-3046002450",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 18,
+      "prTitle": "PR #18",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/18",
+      "type": "issue_comment",
+      "body": "Question @technophile-04 \r\n\r\nwhat's the PR workflow here? Should we do a changeset for each of these? or  have a RC branch (e.g rc-0.0.2) that we'll eventually merge & publish?\r\n\r\n(sorry if we have already talked about this)",
+      "createdAt": "2025-07-23T07:22:02.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/18#issuecomment-3106231839"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 19,
+      "prTitle": "PR #19",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/19",
+      "type": "issue_comment",
+      "body": "this is promising (the rc workflow)! \r\n\r\n@technophile-04, when you have time, could you write a little .md guide with the workflow / steps?",
+      "createdAt": "2025-07-23T14:25:47.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/19#issuecomment-3108889308"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 23,
+      "prTitle": "PR #23",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/23",
+      "type": "issue_comment",
+      "body": "Hey all! Thanks, Rinat, for putting this together. I wasn't sure whether to post the comment here or on https://github.com/scaffold-eth/scaffold-ui/issues/22.\r\n\r\nFirst, this is a nice approach, and it solves a lot of use cases.\r\n\r\n<img width=\"837\" height=\"307\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3f2bb440-b367-433b-887c-e68160524270\" />\r\n\r\nThis is not beautiful, but it gets the job done haha\r\n\r\n----\r\n\r\nMy only _concern_ is if we are going too far. As we talked a few weeks ago, we have the components and the hooks. With hooks, you can do whatever you want (jsx / style wise), and components will give you some defaults that work out of the box.\r\n\r\nThis, from Shiv (on #22)...\r\n\r\n> There are 3 problems we need to solve for better DX:\r\n> 1. Allowing people to somehow pass a global object so that they don't need to pass the same color to each component they use\r\n> 2. Handling dark mode nicely\r\n> 3. Specific component color override. (Like they only want AddressInput to look different but EtherInput and other components should look the same)\r\n\r\n... might be going too far. If we implement these, as this PR does, we are basically solving \"everything\". It feels like we are just one step away from not needing the hooks (just JSX/layout tweaks)\r\n\r\n**These are just raw thoughts, opening them for discussion.**\r\n\r\nLet me try to think about a few options from out-of-the-box solutions (less customization) to max customization (this PR)\r\n\r\n1. **Having predefined themes**. It could just be light / dark.... or a 2/3 color palette for each mode.\r\n2. **Root customization with CSS vars**. Same as 1 (just light / dark themes) + allow overriding those with CSS vars (Rainbowkit does this?)\r\n3. **\"Total\" Control**. This PR. I think it's 2 + allow customization per component.\r\n\r\n----\r\n\r\nTLDR: This approach definitely solves our needs. Just let's make sure we are not overengineering things.\r\n\r\nLet me know what you all think!! Happy to have a call for this next week, too.\r\n\r\n\r\n\r\n",
+      "createdAt": "2025-08-20T15:13:18.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/23#issuecomment-3206829486"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 23,
+      "prTitle": "PR #23",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/23",
+      "type": "issue_comment",
+      "body": "Thanks for the responses!\r\n\r\nStarted with a wall of text response, but I think you both see this approach clearly, so I'd say: let's roll with it!\r\n\r\n(I think we are assuming a lot of things tho, and we are still in a vacuum)\r\n\r\n> (just JSX/layout tweaks)\r\n> Umm, I don't understand this though, how could user change this if importing from the lib? Or you mean by directly copypasting component code?\r\n\r\nI was talking about headless components / Compound components / etc. Approaches that let you control the layout of the exported component from the lib (the only thing missing from not needing hooks at all)\r\n\r\n> Will @source inline(\"bg-sui-primary ...) will remain constant or we have to keep updating it? (just thinking will it be PITA for us like everytime we update the theme we need to update the sources)\r\n\r\nWe are also increasing the CSS for the user (all the classes will always be present, whether they use it or not). Maybe it's ok if these classes are not going to change a lot and there are just a few of them.\r\n\r\nQuestion: Do we really want to export all the utility classes to the user?? It seems that the users will be using just the CSS tokens to override things, and you said:\r\n\r\n> I think it's not the case since the app could have totally **different colors** and every our palette could be bad\r\n\r\nSo people will use our default colors.... or override them with their own colors (with CSS tokens), so I don't think they will use things `bg-sui-primary` in their code\r\n\r\nSo I'd go with 1 from your options, Rinat.",
+      "createdAt": "2025-08-22T08:24:33.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/23#issuecomment-3213524088"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 13,
+      "prTitle": "debug contracts package",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/13",
+      "type": "review_comment",
+      "body": "Do we need this? I guess the `example` one should be enough?",
+      "createdAt": "2025-09-03T13:43:17.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/13#discussion_r2319029441",
+      "path": "packages/debug-contracts/src/deployedContracts.ts",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 33,
+      "prTitle": "PR #33",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/33",
+      "type": "issue_comment",
+      "body": "Thanks!!",
+      "createdAt": "2025-09-15T10:03:16.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/33#issuecomment-3291376807"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 32,
+      "prTitle": "docs initial version",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/32",
+      "type": "review",
+      "body": "Thanks, Shiv! It looks great. And thank you for the explanation.\r\n\r\nOne question:  Is it best to have the docs in the root? Or should it be inside `package`? We have the `example` in the root, but that's internal....vs \"docs\" which is deployed. Not sure what are the PRO/CONS or the standard, just asking! \r\n",
+      "createdAt": "2025-09-15T10:28:30.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/32#pullrequestreview-3223929831",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 32,
+      "prTitle": "PR #32",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/32",
+      "type": "issue_comment",
+      "body": "> Kept it at root becuase I thought in \"packages\" dir we keep things which are published to npm\r\n\r\nOh, ok. I was thinking about SE-2, where we have stuff inside `packages` and none of them are published into npm (more like a way to manage a monorepo of \"deployed\" things in general)\r\n\r\nBut all good, I was just wondering. Let's keep it as it is! We can always change.",
+      "createdAt": "2025-09-15T14:20:17.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/32#issuecomment-3292428017"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "scaffold-ui",
+        "fullName": "scaffold-eth/scaffold-ui"
+      },
+      "prNumber": 36,
+      "prTitle": "PR #36",
+      "prUrl": "https://github.com/scaffold-eth/scaffold-ui/pull/36",
+      "type": "issue_comment",
+      "body": "Thanks Shiv!\r\n\r\nI also used this in the past for some of this stuff:\r\n<img width=\"1138\" height=\"442\" alt=\"image\" src=\"https://github.com/user-attachments/assets/eb17d2dd-dadb-4c13-9814-77d23d3699bb\" />\r\n",
+      "createdAt": "2025-09-17T07:36:18.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/scaffold-ui/pull/36#issuecomment-3301690944"
+    }
+  ]
+}

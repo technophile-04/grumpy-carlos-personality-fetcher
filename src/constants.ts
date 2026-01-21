@@ -2,7 +2,10 @@
  * CLI constants
  */
 
-export const REVIEWER_LOGIN = "carletex";
+// Default reviewer settings (can be overridden via CLI)
+export const DEFAULT_REVIEWER_LOGIN = "carletex";
+export const DEFAULT_REVIEWER_NAME = "Carlos";
+
 export const REPOS_FILE = "repos.json";
 export const OUTPUT_DIR = "output";
 export const CACHE_DIR = ".cache";

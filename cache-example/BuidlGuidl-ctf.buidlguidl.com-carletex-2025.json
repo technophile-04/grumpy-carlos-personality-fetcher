@@ -1,0 +1,598 @@
+{
+  "repo": {
+    "owner": "BuidlGuidl",
+    "repo": "ctf.buidlguidl.com",
+    "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:40:58.328Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 5,
+      "prTitle": "pass address to useFetchUserData hook",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/5",
+      "type": "review",
+      "body": "Great stuff @technophile-04 \r\n\r\nThank you!!!",
+      "createdAt": "2025-01-17T09:18:57.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/5#pullrequestreview-2558346354",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 13,
+      "prTitle": "Open links in new tab in challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/13",
+      "type": "review",
+      "body": "Thanks!!!",
+      "createdAt": "2025-01-27T15:28:53.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/13#pullrequestreview-2575761303",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 14,
+      "prTitle": "fix: ponder stats api",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/14",
+      "type": "review",
+      "body": "Thanks Shiv!",
+      "createdAt": "2025-01-27T17:33:58.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/14#pullrequestreview-2576115839",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 15,
+      "prTitle": "Update main repo Readme with setup explanation and extra extension info",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/15",
+      "type": "review",
+      "body": "Great stuff Pablo! Thanks!!\r\n\r\nAdded a little note",
+      "createdAt": "2025-01-28T12:21:12.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/15#pullrequestreview-2578067047",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 11,
+      "prTitle": "Tweak Readme and generated instance Readme",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/11",
+      "type": "review_comment",
+      "body": "remove extra line?",
+      "createdAt": "2025-01-28T12:23:49.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/11#discussion_r1932071641",
+      "path": "README.md",
+      "line": 10
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 11,
+      "prTitle": "Tweak Readme and generated instance Readme",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/11",
+      "type": "review_comment",
+      "body": "I guess we need to add something about `scripts`?\r\n\r\n\"If you are using a script, make sure you are pointing it to the Optimism RPC\"... or similar?",
+      "createdAt": "2025-01-28T12:26:00.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/11#discussion_r1932074631",
+      "path": "README.md",
+      "line": 11
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 11,
+      "prTitle": "Tweak Readme and generated instance Readme",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/11",
+      "type": "review",
+      "body": "Looks good! Left a couple of tiny comments. Feel free to ignore too :D",
+      "createdAt": "2025-01-28T12:26:20.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/11#pullrequestreview-2578072586",
+      "state": "COMMENTED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 17,
+      "prTitle": "PR #17",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/17",
+      "type": "issue_comment",
+      "body": "> Was playing a bit with the alignments. do you think is worth it to update it with one of these variations? Or prefer to keep it as it is.\r\n\r\nI see a lot of numbers there :D I prefer the way it's. But let's merge to fix the current state and we can discuss later.\r\n\r\n> Not related to this PR (sorry!) => Pushed a small tweak on FAQs for mobile that I found out after merging https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/18\r\n\r\nThanks!\r\n",
+      "createdAt": "2025-02-04T09:59:43.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/17#issuecomment-2633413760"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 17,
+      "prTitle": "PR #17",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/17",
+      "type": "issue_comment",
+      "body": "Oops, sorry. I realized I interpreted it wrong. \r\n\r\nI thought you were putting the two sections together. My bad for not reading properly haha\r\n\r\nCan you create another PR for it?\r\n\r\nBoth look better than the current state, so up to you",
+      "createdAt": "2025-02-04T10:03:36.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/17#issuecomment-2633423261"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 19,
+      "prTitle": "Change stats tables column alignment and add divider",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/19",
+      "type": "review",
+      "body": "Looks great Pablo! Thank you 👾",
+      "createdAt": "2025-02-04T15:26:59.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/19#pullrequestreview-2593229052",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 21,
+      "prTitle": "extension tweaks",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21",
+      "type": "review_comment",
+      "body": "I think we need to add \r\n\r\n```\r\nenabled: !!connectedAddress,\r\n```\r\n\r\nto the `useScaffoldEventHistory` hook params. If not, I'm getting ALL the flags when I'm on optimism and no wallet connected. (I guess minter = null means all the minter addresses :D)\r\n\r\n![image](https://github.com/user-attachments/assets/495c292b-2d2b-4694-8bf3-e4cd868fe2b6)\r\n\r\n\r\n",
+      "createdAt": "2025-05-22T14:50:20.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21#discussion_r2102763242",
+      "path": "extension/packages/nextjs/components/FlagTracker.tsx",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 21,
+      "prTitle": "extension tweaks",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21",
+      "type": "review_comment",
+      "body": "We could also return early with something like:\r\n\r\n```tsx\r\n  if (!connectedAddress) {\r\n    return (\r\n      <div className=\"bg-base-100 p-6 rounded-lg shadow-md\">Connect your wallet to view your collected flags.</div>\r\n    );\r\n  }\r\n```",
+      "createdAt": "2025-05-22T14:52:08.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21#discussion_r2102767096",
+      "path": "extension/packages/nextjs/components/FlagTracker.tsx",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 21,
+      "prTitle": "extension tweaks",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21",
+      "type": "review_comment",
+      "body": "For the target chain...Instead of:\r\n\r\n```ts\r\n// If you want to deploy to optimism:\r\n// 1. import { optimism } from \"viem/chains\";\r\n// 2. set TARGET_CHAIN = optimism;\r\n```\r\n\r\nCould we just import `import * as chains from \"viem/chains\";` as in scaffold.config?\r\n\r\nSo we can do\r\n\r\n```ts\r\nconst TARGET_CHAIN = chains.optimism;\r\n```",
+      "createdAt": "2025-05-22T15:24:24.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21#discussion_r2102836833",
+      "path": "extension/packages/scripts/src/example.ts",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 21,
+      "prTitle": "extension tweaks",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21",
+      "type": "review_comment",
+      "body": "```\r\nNo encrypted key found, make sure to generate (`yarn generate`) or import account (`yarn account:import`) first b\r\ny going to root directory and running this commands\r\n```\r\n\r\nAre missing an extra `../`? I think we need to go 2 levels up: proxy & scripts",
+      "createdAt": "2025-05-22T15:33:26.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/21#discussion_r2102854971",
+      "path": "extension/packages/scripts/proxy/hardhat.ts",
+      "line": 9
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "What do you think about moving these inside a `season2` folder? I think we'd only need to change the import routes.\n\nFor consistency we could also create `season1` folder + rename the challenges.\n\n---\n\nNone of the above is critical, but I personally like to have them organized (thinking about future editions too)",
+      "createdAt": "2025-12-02T15:55:47.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581810234",
+      "path": "packages/hardhat/contracts/S2/Season2Challenge10.sol",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "If we do https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27/files#r2581810234\n\nwe could keep this file on the contracts root",
+      "createdAt": "2025-12-02T15:56:14.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581812570",
+      "path": "packages/hardhat/contracts/INFTFlags.sol",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "I think this won't work when we go live. The contract form Season1 is already deployed and it seems that we didn't commit the `artifacts` to the repo\n\nMaybe we hardcode the address when network != localhost?",
+      "createdAt": "2025-12-02T15:59:16.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581825463",
+      "path": "packages/hardhat/deploy/01_deploy_ctf_season2_contracts.ts",
+      "line": 22
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "Not critical, but I think we could have a friendlier URL?\n\n[seasonName]/challenge/[number]\nor\nseason[season]/challenge/[number]\n\nbangkok/challenge/1\nbuenos-aires/challenge/1\n\nor\n\nseason1/challenge/1\nseason2/challenge/1\n\n---\n\nI personally prefer option 1 with the name... but it depends how we use it in the rest of the project (1 is more pragmatic that Bankok, but it less cooler :D)\n\n\n",
+      "createdAt": "2025-12-02T16:02:33.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581841769",
+      "path": "packages/nextjs/app/[seasonSlug]/challenges/[number]/page.tsx",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "Not introduced in this PR, but I think we should have a better profile page when the user hasn't minted a Flag yet\n\n<img width=\"1752\" height=\"715\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/410cd3bc-eec0-4728-a1c6-450eaf95c082\" />\n\nSomething like:\n\n<img width=\"1706\" height=\"1226\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/df47edf3-ed88-4568-a874-bf373cf1ddb3\" />\n\n",
+      "createdAt": "2025-12-02T16:10:05.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581877110",
+      "path": "packages/nextjs/app/profile/[address]/page.tsx",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "A couple of ideas to make it look a bit better (different symbols / sorting)\n\n- `S1: Bangkok | Challenge 1`\n- `Challenge #1 - Bangkok (S1)`\n\nwdyt?",
+      "createdAt": "2025-12-02T16:11:47.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581885163",
+      "path": "packages/nextjs/components/ChallengeHeading.tsx",
+      "line": 33
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "This is good for now, but I think we'd want to tweak the homepage a bit (text mostly)",
+      "createdAt": "2025-12-02T16:12:54.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581890719",
+      "path": "packages/nextjs/components/HeroInvaders.tsx",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "Let's have more margin here (e.g. `mt-12`)\n\nI know that Hunter will review this, but the tiny space was bugging me haha",
+      "createdAt": "2025-12-02T16:16:56.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581909934",
+      "path": "packages/nextjs/components/UserData.tsx",
+      "line": 85
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "do we need to change something here?",
+      "createdAt": "2025-12-02T16:17:59.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581915075",
+      "path": "packages/nextjs/hooks/useFetchUserData.tsx",
+      "line": 44
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review_comment",
+      "body": "We'll need to run ponder again from the beggining so all of them have the right ID, no?",
+      "createdAt": "2025-12-02T16:19:10.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#discussion_r2581920744",
+      "path": "packages/ponder/src/Season1NFTFlags.ts",
+      "line": 39
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review",
+      "body": "This is great stuff @damianmarti !! Thank you <3\n\nI left some comments (nothing critical, just some suggestions / notes / nits)",
+      "createdAt": "2025-12-02T16:20:28.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#pullrequestreview-3530897769",
+      "state": "COMMENTED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 27,
+      "prTitle": "Add season2 contracts and challenge pages",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27",
+      "type": "review",
+      "body": "Amazing stuff.\n\nThanks Damu!",
+      "createdAt": "2025-12-03T10:04:31.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/27#pullrequestreview-3534220404",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 28,
+      "prTitle": "Update FAQs for the new seasons",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/28",
+      "type": "review",
+      "body": "Thanks!!\n\nTweaked the order a bit",
+      "createdAt": "2025-12-03T10:08:11.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/28#pullrequestreview-3534237050",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 29,
+      "prTitle": "Adding season 1 and 2 invaders",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/29",
+      "type": "review",
+      "body": "Love this one!\n\n<img width=\"223\" height=\"214\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/59c9f750-d6d8-4d52-b02f-85dab9234b60\" />\n\nThanks!",
+      "createdAt": "2025-12-03T16:26:17.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/29#pullrequestreview-3535915062",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 31,
+      "prTitle": "Improve New Users Profile Page",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/31",
+      "type": "review",
+      "body": "Thank you, looking great!",
+      "createdAt": "2025-12-04T09:53:41.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/31#pullrequestreview-3539042877",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 32,
+      "prTitle": "Add seasons copy to home hero",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/32",
+      "type": "review",
+      "body": "Good iteration, thanks!",
+      "createdAt": "2025-12-04T09:59:30.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/32#pullrequestreview-3539069000",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 34,
+      "prTitle": "Change required token on Season2NFTFlags received",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/34",
+      "type": "review",
+      "body": "Good catch!!! Thanks Damu",
+      "createdAt": "2025-12-09T08:52:07.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/34#pullrequestreview-3556186713",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 35,
+      "prTitle": "PR #35",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/35",
+      "type": "issue_comment",
+      "body": "Tagging @technophile-04 for help testing, since he is very familiar with the extension too,",
+      "createdAt": "2025-12-09T09:05:50.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/35#issuecomment-3631126871"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 36,
+      "prTitle": "Update deployedContracts with season2 deployment",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/36",
+      "type": "review",
+      "body": "Verify when you have the chance.\n\nThanks!",
+      "createdAt": "2025-12-15T16:42:18.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/36#pullrequestreview-3579168564",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 38,
+      "prTitle": "Add seasons to stats",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/38",
+      "type": "review",
+      "body": "Thanks Damu!",
+      "createdAt": "2025-12-17T09:36:15.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/38#pullrequestreview-3586828128",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 39,
+      "prTitle": "PR #39",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/39",
+      "type": "issue_comment",
+      "body": "Looking pretty good!! Thanks Port <3\r\n\r\nSome things that I see.\r\n\r\n1. Let's add a bit more space between the start and the begining of the columns.\r\n<img width=\"1652\" height=\"678\" alt=\"image\" src=\"https://github.com/user-attachments/assets/cb7ed0a8-88b1-4f19-9b7a-d457d56dd797\" />\r\n\r\nAt least something like this\r\n<img width=\"1323\" height=\"773\" alt=\"image\" src=\"https://github.com/user-attachments/assets/046e72db-9826-441a-9787-a2962939d4c7\" />\r\n\r\n\r\n2. Let's place the tooltip in another position. Usually you hover the challenges from top to bottom.  It's a bit weird to just run over the tooltip when hovering (and also hides the next item). \r\n\r\n<img width=\"471\" height=\"353\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a8cb48b1-3482-476d-88a0-725ebb776934\" />\r\n\r\nMaybe on the right?\r\n\r\n3. I think we could have better descriptions for the tootlip. I think we can be more specific about what you are going to learn / need to apply. (we can also remove the \"mint your flag\", \"interact with challenge X\", etc). IF not, it feels a bit vague?\r\n\r\nSome examples:\r\n\"Mint your flag in this unverified contract.\" => \"Analyze the bytecode of a unverified contract\" or just \"bytecode on unverified contract\"\r\n\"Mint your flag using the right signature.\" => \"Craft a signature of a known PK\" or just \"Crafting signatures\"\r\n\r\nReally open on this one, what do you think? We can also update the descriptions in another PRs.\r\n\r\n\r\ncc @portdeveloper @damianmarti \r\n\r\n\r\n\r\n\r\n",
+      "createdAt": "2025-12-19T08:53:46.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/39#issuecomment-3674161209"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "ctf.buidlguidl.com",
+        "fullName": "BuidlGuidl/ctf.buidlguidl.com"
+      },
+      "prNumber": 39,
+      "prTitle": "PR #39",
+      "prUrl": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/39",
+      "type": "issue_comment",
+      "body": "Thanks! After tinkering a bit, moved the tooltip on the left.\r\n\r\nRegarding the tooltip descriptions:\r\n- I think we should have better ones. If not, they don't add much.\r\n\r\nIn any case, let's merge this for now!",
+      "createdAt": "2025-12-22T21:07:20.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/ctf.buidlguidl.com/pull/39#issuecomment-3684164232"
+    }
+  ]
+}

@@ -42,9 +42,10 @@ export function formatChunkForPrompt(items: ReviewCorpusItem[]): string {
 }
 
 /**
- * System prompt for extracting persona notes from a chunk
+ * Generate system prompt for extracting persona notes from a chunk
  */
-export const CHUNK_SYSTEM_PROMPT = `You are analyzing code review comments to extract personality traits and review patterns of a developer named Carlos (GitHub: carletex).
+export function generateChunkSystemPrompt(reviewerName: string, reviewerLogin: string): string {
+  return `You are analyzing code review comments to extract personality traits and review patterns of a developer named ${reviewerName} (GitHub: ${reviewerLogin}).
 
 Your task is to identify:
 1. Communication style and tone
@@ -55,6 +56,7 @@ Your task is to identify:
 6. How they balance strictness with helpfulness
 
 Output your observations as bullet points. Be specific and quote actual phrases when relevant.`;
+}
 
 /**
  * Generate user prompt for chunk analysis
