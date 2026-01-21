@@ -2,20 +2,12 @@
  * Markdown report generator
  */
 
-import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { format } from "date-fns";
 import type { PersonalityProfile, ReviewCorpusStats } from "../types.js";
 import { OUTPUT_DIR } from "../constants.js";
-
-/**
- * Ensure output directory exists
- */
-function ensureOutputDir(): void {
-  if (!existsSync(OUTPUT_DIR)) {
-    mkdirSync(OUTPUT_DIR, { recursive: true });
-  }
-}
+import { ensureDir } from "../utils/fs.js";
 
 /**
  * Generate markdown content for personality profile
@@ -77,7 +69,7 @@ export function writePersonalityMarkdown(
   profile: PersonalityProfile,
   stats: ReviewCorpusStats
 ): string {
-  ensureOutputDir();
+  ensureDir(OUTPUT_DIR);
 
   const content = generatePersonalityMarkdown(profile, stats);
   const filename = "grumpy-carlos-personality.md";

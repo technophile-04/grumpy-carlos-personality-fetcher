@@ -2,7 +2,7 @@
  * GitHub module exports
  */
 
-export { getOctokit, checkRateLimit } from "./client.js";
+export { createOctokit, checkRateLimit } from "./client.js";
 export {
   fetchRepoReviews,
   listRepoPullRequests,

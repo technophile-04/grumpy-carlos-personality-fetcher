@@ -6,7 +6,7 @@ import { generateText } from "ai";
 import type { Config, ReviewCorpusItem, PersonalityProfile } from "../types.js";
 import { getLanguageModel } from "./provider.js";
 import {
-  CHUNK_SYSTEM_PROMPT,
+  generateChunkSystemPrompt,
   CONSOLIDATE_SYSTEM_PROMPT,
   formatChunkForPrompt,
   generateChunkPrompt,
@@ -34,7 +34,8 @@ async function processChunk(
   items: ReviewCorpusItem[],
   chunkIndex: number,
   totalChunks: number,
-  reviewerName: string
+  reviewerName: string,
+  reviewerLogin: string
 ): Promise<string> {
   const model = getLanguageModel(config);
   const formattedItems = formatChunkForPrompt(items);
@@ -47,7 +48,7 @@ async function processChunk(
 
   const result = await generateText({
     model,
-    system: CHUNK_SYSTEM_PROMPT,
+    system: generateChunkSystemPrompt(reviewerName, reviewerLogin),
     prompt,
     temperature: 0.3,
   });
@@ -90,9 +91,9 @@ export async function generatePersonalityProfile(
   config: Config,
   items: ReviewCorpusItem[],
   reviewerLogin: string,
+  reviewerName: string,
   onProgress?: (message: string) => void
 ): Promise<PersonalityProfile> {
-  const reviewerName = "Carlos";
 
   // Sort items by date
   const sortedItems = [...items].sort(
@@ -114,7 +115,8 @@ export async function generatePersonalityProfile(
       chunks[i],
       i,
       totalChunks,
-      reviewerName
+      reviewerName,
+      reviewerLogin
     );
     chunkNotes.push(notes);
   }

@@ -2,7 +2,7 @@
  * JSON report generator
  */
 
-import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type {
   ReviewCorpusItem,
@@ -11,15 +11,7 @@ import type {
   ReviewCorpusItemJSON,
 } from "../types.js";
 import { OUTPUT_DIR } from "../constants.js";
-
-/**
- * Ensure output directory exists
- */
-function ensureOutputDir(): void {
-  if (!existsSync(OUTPUT_DIR)) {
-    mkdirSync(OUTPUT_DIR, { recursive: true });
-  }
-}
+import { ensureDir } from "../utils/fs.js";
 
 /**
  * Convert ReviewCorpusItem to JSON-serializable format
@@ -76,7 +68,7 @@ export function writeCorpusJSON(
   reviewer: string,
   rangeLabel: string
 ): string {
-  ensureOutputDir();
+  ensureDir(OUTPUT_DIR);
 
   const stats = calculateStats(items);
   const report: ReviewCorpusReportJSON = {
