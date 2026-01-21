@@ -1,0 +1,573 @@
+{
+  "repo": {
+    "owner": "scaffold-eth",
+    "repo": "create-eth",
+    "fullName": "scaffold-eth/create-eth"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:37:30.960Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 184,
+      "prTitle": "PR #184",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/184",
+      "type": "issue_comment",
+      "body": "> maybe this what you all meant by being consistent (having proper rules?) lol sorry maybe we discussed this already in some other discussion or somewhere. Gonna go through discussions again.\r\n\r\nYes!\r\n\r\nThat + type checking seems the way to go. I think this can be a part of #170 / #180",
+      "createdAt": "2025-01-02T10:28:09.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/184#issuecomment-2567556651"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 195,
+      "prTitle": "initial draft for template args rules",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/195",
+      "type": "review",
+      "body": "Love this!",
+      "createdAt": "2025-01-13T16:48:02.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/195#pullrequestreview-2547221479",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 198,
+      "prTitle": "PR #198",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/198",
+      "type": "issue_comment",
+      "body": "Thanks Damu!!",
+      "createdAt": "2025-01-15T10:52:31.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/198#issuecomment-2592308848"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 203,
+      "prTitle": "External extensions tweaks",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/203",
+      "type": "review_comment",
+      "body": "Not sure if the `=== \"object\"` thing is clearer than before.\r\n\r\nThe problem with the previous version is that TS doesn't infer that when !dev && extension => extension is an object. So you have to explicitly annotate the type.",
+      "createdAt": "2025-01-21T18:29:49.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/203#discussion_r1924197284",
+      "path": "src/utils/parse-arguments-into-options.ts",
+      "line": 48
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 203,
+      "prTitle": "External extensions tweaks",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/203",
+      "type": "review_comment",
+      "body": "I actually forgot to remove it! Not exporting them since they are not being used anywhere outside this file \r\n\r\nThanks!\r\n\r\n447a07762e08fe861cc0064677619e48d72bf590",
+      "createdAt": "2025-01-22T09:32:40.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/203#discussion_r1924994107",
+      "path": "src/utils/external-extensions.ts",
+      "line": 179
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 203,
+      "prTitle": "External extensions tweaks",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/203",
+      "type": "review_comment",
+      "body": "Uhm, nit of a nit: I think `getValidatedExtensionDetails` seems to be expecting an already validated extension. Someone would use it like:\r\n\r\n```js\r\nif (isValidExtension(extensionName)) {\r\n   const extension = getValidatedExtensionDetails(extensionName)\r\n}\r\n```\r\n\r\nI think `validateExternalExtension` is a good name since we are not prefixing it with `is` (which it leads to think that the return value is a bool). \r\n\r\nIf we really want to be explicit we could use something like `validateAndLoadExternalExtension`.\r\n\r\nOpen!!\r\n\r\nPS. Having `{ repository: string; branch?: string; isTrusted: boolean } | string>` as return type bothers me more than the name of the function since it makes the _client use_ more complex.\r\n\r\n",
+      "createdAt": "2025-01-22T09:40:08.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/203#discussion_r1925005402",
+      "path": "src/utils/external-extensions.ts",
+      "line": 46
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 203,
+      "prTitle": "External extensions tweaks",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/203",
+      "type": "review_comment",
+      "body": "Like!\r\n\r\n8f9616ec83654609791d889fa1885b987df42b04",
+      "createdAt": "2025-01-22T09:41:57.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/203#discussion_r1925008260",
+      "path": "src/utils/parse-arguments-into-options.ts",
+      "line": 48
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 203,
+      "prTitle": "External extensions tweaks",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/203",
+      "type": "review_comment",
+      "body": "> So not worth it?\r\n\r\nyeah, I think we are thinking too much :D",
+      "createdAt": "2025-01-22T17:23:12.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/203#discussion_r1925698691",
+      "path": "src/utils/external-extensions.ts",
+      "line": 46
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 175,
+      "prTitle": "PR #175",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/175",
+      "type": "issue_comment",
+      "body": "No strong feelings either. \r\n\r\nI like `$$var$$` slightly better (even if it's not needed) because it delimits the variable a bit better and it's easier to parse for me\r\n\r\n```ts\r\n mainnet: {\r\n      url: `https://eth-mainnet.alchemyapi.io/v2/\\${providerApiKey}`,\r\n      accounts: [\"$$$deployerPrivateKey\"],\r\n    },\r\n    sepolia: {\r\n      url: `https://eth-sepolia.g.alchemy.com/v2/\\${providerApiKey}`,\r\n      accounts: [\"$$deployerPrivateKey$$\"],\r\n    },\r\n```\r\n\r\nBut happy either way!\r\n",
+      "createdAt": "2025-01-29T10:32:41.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/175#issuecomment-2621255687"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 175,
+      "prTitle": "PR #175",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/175",
+      "type": "issue_comment",
+      "body": "I think this is great!! Love the graphic <3\r\n\r\nThe workflow makes a lot of sense. Let's try to not extend this too much in time, since there is a lot of time consuming back-merging here haha. But this is the safest way!\r\n\r\nSo let's see if I get TLDR correctly:\r\n- Let's keep going as usual (SE-2 back merges, cli changes, etc)\r\n- Let's run a parallel BETA branch that will publish the beta version (make sure we back-merge main changes). Let's add all the breaking changes to this branch.\r\n- When ready:\r\n  - Let's prepare the extension to work with the breaking changes (e.g. in a __beta branch) + test with the beta deployed version\r\n  - Merge beta => main.\r\n\r\nAm I missing something?",
+      "createdAt": "2025-02-11T15:36:27.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/175#issuecomment-2651189549"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 218,
+      "prTitle": "backmerge 24-02-25",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/218",
+      "type": "review",
+      "body": "Looking great!!! thank you Shiv",
+      "createdAt": "2025-02-24T16:45:12.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/218#pullrequestreview-2637785559",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 221,
+      "prTitle": "move template provider after wagmi",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/221",
+      "type": "review",
+      "body": "Thanks Shiv!! Working great.",
+      "createdAt": "2025-02-25T16:33:15.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/221#pullrequestreview-2641741009",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 225,
+      "prTitle": "PR #225",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/225",
+      "type": "issue_comment",
+      "body": "Releasing this version with the fix! Thanks Shiv",
+      "createdAt": "2025-02-27T08:59:51.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/225#issuecomment-2687310707"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 227,
+      "prTitle": "Scaffold config new template",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/227",
+      "type": "review_comment",
+      "body": "Oh damn, this is how people need to use it, right?\r\n\r\nCan you explain in which cases this is needed? Sorry, I'm sure we've talked about this a bunch of times.",
+      "createdAt": "2025-03-05T17:21:52.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/227#discussion_r1981854169",
+      "path": "templates/solidity-frameworks/foundry/packages/nextjs/scaffold.config.ts.args.mjs",
+      "line": 2
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 227,
+      "prTitle": "Scaffold config new template",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/227",
+      "type": "review_comment",
+      "body": "Ok, thanks! I didn't look at the PR closely and had the impression that we only needed to use those \"wildcards\" on the template file, not the template `args`.\r\n\r\nIt's ugly as hell, but I guess we explored a bunch of options and this was the best.",
+      "createdAt": "2025-03-06T16:29:58.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/227#discussion_r1983691344",
+      "path": "templates/solidity-frameworks/foundry/packages/nextjs/scaffold.config.ts.args.mjs",
+      "line": 2
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 227,
+      "prTitle": "PR #227",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/227",
+      "type": "issue_comment",
+      "body": "Regarding losing comments on deepMerge. I'm here with Shiv and Cursor and we came with a (hacky) solution if we wanted to use it.\r\n\r\nChange utils `stringify` function to (compact = false + magic comment placement):\r\n```js\r\nexport const stringify = (val, comments = {}) => {\r\n  let str = inspect(val, { \r\n    depth: null, \r\n    compact: false,\r\n    maxArrayLength: null, \r\n    maxStringLength: null\r\n  });\r\n  \r\n  // Add comments above their respective properties\r\n  if (Object.keys(comments).length > 0) {\r\n    str = str.replace(/^\\s*(\\w+):/gm, (match, prop) => {\r\n      const indent = match.match(/^\\s*/)[0];\r\n      return comments[prop] \r\n        ? `${indent}// ${comments[prop]}\\n${match}`\r\n        : match;\r\n    });\r\n  }\r\n\r\n  return str\r\n    .replace(/\"\\$\\$([^\"]+)\\$\\$\"/g, '$1')\r\n    .replace(/'\\$\\$([^']+)\\$\\$'/g, '$1')\r\n    .replace(/(['\"])(.*?\\$\\{.*?\\}.*?)\\1/g, '`$2`');\r\n};\r\n\r\n```\r\n\r\nAnd you could use it in the template like:\r\n\r\n```js\r\nconst scaffoldConfig = ${stringify(finalConfig, {\r\n  targetNetworks: \"The networks on which your DApp is live\",\r\n  pollingInterval: \"The interval at which your front-end polls the RPC servers for new data\",\r\n  alchemyApiKey: \"Your Alchemy API key for interacting with Ethereum networks\",\r\n  walletConnectProjectId: \"Your WalletConnect project ID for connecting to mobile wallets\",\r\n  onlyLocalBurnerWallet: \"Only show the Burner Wallet when running on hardhat network\"\r\n})} as const satisfies ScaffoldConfig;\r\n```\r\n\r\n(fake ai comments lol)\r\n\r\nWe could also made it multi-line adding (\\n).\r\n\r\nA bit hacky, but it would solve the issue if we wanted.",
+      "createdAt": "2025-03-13T17:31:04.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/227#issuecomment-2722113445"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 227,
+      "prTitle": "PR #227",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/227",
+      "type": "issue_comment",
+      "body": "Another thing we need to fix is the sorting of the props\r\n\r\nThis is what we are getting in the instance (using the logic from the previous comment, but it's an existing problem)\r\n![image](https://github.com/user-attachments/assets/be9b3012-e453-40e4-98ba-f3382715e532)\r\n\r\nDeepmerge need to respect the order, or we could do another hacky solution :D\r\n",
+      "createdAt": "2025-03-13T17:32:31.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/227#issuecomment-2722119602"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 227,
+      "prTitle": "PR #227",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/227",
+      "type": "issue_comment",
+      "body": "> For me, comments in types are enough\r\n\r\nThe problem might be in files like hardhat config, right? Where we don't have the types.\r\n\r\nAnyway, we can always add it (the possibility to add comments on objects) at some point if we feel we need it.\r\n\r\nPS. I don't think the solution was super hacky (just a bit :)). \r\n\r\n\r\n\r\n",
+      "createdAt": "2025-03-17T16:57:35.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/227#issuecomment-2730239854"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 231,
+      "prTitle": "skip relase action version packages",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/231",
+      "type": "review",
+      "body": "Nice!!\r\n\r\nLet's merge and see if the PR is updated when merging more changesets.\r\n\r\nThanks!!",
+      "createdAt": "2025-03-24T09:53:58.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/231#pullrequestreview-2709782144",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 252,
+      "prTitle": "add over-collateralized-lending challenge to extensions list",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/252",
+      "type": "review_comment",
+      "body": "A while ago, I had a conversation with Elliott about the naming of the challenge (branch).\r\n\r\nWe wanted to remove the \"challenge-{number}\" part of it since we didn't want to number them, so we went with over-collateralized-lending. But maybe adding challenge- (without the number) is better? So we can identify the challenges better. This is the first challenge, so the change shouldn't be too painful..\r\n\r\n> I feel like it should be consistent one way or the other.\r\n\r\n100%\r\n\r\nWe'd need to create a checklist to make sure everything is changed:\r\n\r\n- branch name\r\n- SRE challenge config\r\n- autograder\r\n- ...?\r\n\r\nWhat do you two think?",
+      "createdAt": "2025-05-05T14:47:31.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/252#discussion_r2073600960",
+      "path": "src/extensions.json",
+      "line": 99
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 252,
+      "prTitle": "PR #252",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/252",
+      "type": "issue_comment",
+      "body": "Thanks for this Elliott!\r\n\r\nI think moving to `challenge-` is the right choice, and we are in a stage where it's not painful :D \r\n\r\nPS. Created https://github.com/austintgriffith/speedrun-grader/pull/13",
+      "createdAt": "2025-05-06T08:23:57.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/252#issuecomment-2853686925"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 254,
+      "prTitle": "PR #254",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/254",
+      "type": "issue_comment",
+      "body": "Great stuff!\r\n\r\nQuestion (because I don't remember): What do we need to update once we merge a breaking change like this (e.g. tailwind config is not present anymore... do we keep a list somewhere? Or is it just the extension examples?)\r\n\r\nAlso, should this be `0.2.0`?",
+      "createdAt": "2025-05-07T13:32:13.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/254#issuecomment-2858632786"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 254,
+      "prTitle": "PR #254",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/254",
+      "type": "issue_comment",
+      "body": "> Just pushed https://github.com/scaffold-eth/create-eth/commit/bfc3125aa09c1456003cb01e4f693c7325758f68 maybe we can tweak it a bit more? what do you guys say?\r\n\r\nThis is great I think!\r\n\r\nThanks Shiv!!",
+      "createdAt": "2025-05-08T07:14:58.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/254#issuecomment-2862023376"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 252,
+      "prTitle": "PR #252",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/252",
+      "type": "issue_comment",
+      "body": "Done!\r\n\r\nNew naming + Latest changes deployed to the autograder.\r\n\r\nThanks Elliott!",
+      "createdAt": "2025-05-12T10:10:14.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/252#issuecomment-2871906510"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 244,
+      "prTitle": "PR #244",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/244",
+      "type": "issue_comment",
+      "body": "Hey Tam,\r\n\r\nBefore going into technical details, I have to say that your attitude here comes as a surprise to me. Not sure where that's coming from, but definitely not something we are used to inside the BG. I want to think that this would sound different in a conversation, and your writing might sound worse than it really is.\r\n\r\nI get that if you are only working on this, you feel left aside when we are not paying attention to your PR/issue. But we are a team working on dozens of issues / PR / projects inside the BG, and we prioritize and tackle things as we consider is the best way.\r\n\r\nOk, back to the tech details:\r\n\r\n> I pinged @carletex about it, who said\r\n> > Cool, that makes sense! I think the goal of the PR is great, so that's a big thumbs up!\r\n\r\n> Therefore I spent 2-3 weeks to finalise the PR, but now you say that the idea is not a good one.\r\n\r\nNo one is telling you that. We all thought this was a good idea, but what Shiv is telling you here is that this approach doesn't work for us. It completely breaks the core principles of the `create-eth` projects. This PR hacks the way `create-eth` works, and we don't want that at all. This is something we have been discussing a lot: maybe the last time was here https://github.com/scaffold-eth/create-eth/issues/170, which was sparked by your issue.\r\n\r\n> Also, with the current extension system, my demo branch cannot be turned into an extension.\r\n\r\nThat's a different problem. As you can see on the beta branch, we are rewriting a bunch of things on the template system to allow more use cases (feedback from extension builders). Again #170\r\n\r\n---\r\n\r\nShiv gave you really good feedback here, detailing how this feature should work: https://github.com/scaffold-eth/create-eth/pull/205#issuecomment-2671047654, but it seems that you ignored it. That's how I thought this would work: since we already have `yarn create-extension` working, we should just tweak it a bit to support projects not started with create-eth (probably creating a diff between last commit and {commitHash} would work)\r\n\r\n---\r\n\r\nLeaving the most important part for the end: I'm really open to discuss tech details, iterate, argue, disagree etc, but if you want to collaborate with us, please be kind in your messages. Some of us worked really hard to assemble a tight team with good communication and attitude, and I won't let anything disturb that.\r\n\r\nThanks.\r\n\r\n\r\n",
+      "createdAt": "2025-05-13T08:46:24.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/244#issuecomment-2875585725"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 258,
+      "prTitle": "allow extension to be created from scaffold-eth repo",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/258",
+      "type": "review_comment",
+      "body": "silly thing: would something like `--from-hash` or `--from-commit` sound more natural?\r\n\r\nOr do you want to be super explicit about it with \"scaffold-eth\"?\r\n",
+      "createdAt": "2025-05-14T16:37:04.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/258#discussion_r2089336489",
+      "path": "src/dev/create-extension.ts",
+      "line": 34
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 258,
+      "prTitle": "PR #258",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/258",
+      "type": "issue_comment",
+      "body": "This is good stuff, Shiv! Super clean and simple solution.\r\n\r\nI'll keep testing tomorrow.",
+      "createdAt": "2025-05-14T16:37:32.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/258#issuecomment-2880876098"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 265,
+      "prTitle": "PR #265",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/265",
+      "type": "issue_comment",
+      "body": "Hey @phipsae, thanks!\r\n\r\nYou can also add it to the autograder (if the tests are ready). Check Elliot's PR for reference: https://github.com/austintgriffith/speedrun-grader/pull/12/",
+      "createdAt": "2025-05-22T14:58:56.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/265#issuecomment-2901553664"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 264,
+      "prTitle": "PR #264",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/264",
+      "type": "issue_comment",
+      "body": "> Just cc @carletex shall we log some warning or we just let it fail silently? I think failing silently is fine? I mean now with github.com its very unlikely to fail so it's fine if we don't log the warning or anything?\r\n\r\nI think a warning won't hurt, but no big deal for me, so up to y'all",
+      "createdAt": "2025-05-23T07:36:17.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/264#issuecomment-2903550697"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 266,
+      "prTitle": "PR #266",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/266",
+      "type": "issue_comment",
+      "body": "This didn't run (1st attempt failed, 2nd attempt on queue), so it's not adding the changeset here.\r\n\r\nhttps://github.com/scaffold-eth/create-eth/actions/runs/15249578361\r\n\r\nNot sure how to re-run it again",
+      "createdAt": "2025-05-26T14:49:06.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/266#issuecomment-2909995214"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 268,
+      "prTitle": "PR #268",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/268",
+      "type": "issue_comment",
+      "body": "I came here to say this:\r\n> Will test with Pablo IRL on windows too 🙌\r\n\r\nhaha. yes, let's test it these days!\r\n\r\nthanks Rinat",
+      "createdAt": "2025-05-28T16:26:12.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/268#issuecomment-2916935801"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 283,
+      "prTitle": "PR #283",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/283",
+      "type": "issue_comment",
+      "body": "This is great :heart: ",
+      "createdAt": "2025-06-12T10:42:45.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/283#issuecomment-2966101412"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 285,
+      "prTitle": "PR #285",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/285",
+      "type": "issue_comment",
+      "body": "> Ohh we have https://github.com/scaffold-eth/scaffold-eth-2/pull/1103 in this PR probably because last backmerge we didn't merge it as normal merge and instead did squash and merge.\r\n\r\nMy bad, sorry!",
+      "createdAt": "2025-06-13T09:42:49.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/285#issuecomment-2969761653"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 351,
+      "prTitle": "PR #351",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/351",
+      "type": "issue_comment",
+      "body": "ok, thanks, Rinat!!\r\n\r\nWe can add the `.gitignore.args.mjs` if we decide to add support for it (I think we should if it doesn't break anything?)\r\n\r\nI think the extension is ready then.\r\n",
+      "createdAt": "2025-10-21T09:29:33.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/351#issuecomment-3425624975"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 351,
+      "prTitle": "PR #351",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/351",
+      "type": "issue_comment",
+      "body": "Thanks Shiv! <3",
+      "createdAt": "2025-10-22T14:48:32.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/351#issuecomment-3432760866"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "create-eth",
+        "fullName": "scaffold-eth/create-eth"
+      },
+      "prNumber": 355,
+      "prTitle": "PR #355",
+      "prUrl": "https://github.com/scaffold-eth/create-eth/pull/355",
+      "type": "issue_comment",
+      "body": "Good stuff!!\r\n\r\nI also like the 2.x.x, this feels like a big change.\r\n\r\n> migrate sre challenges\r\n\r\nAgree too (glad we had fixed versions there tho!, but good to update)",
+      "createdAt": "2025-11-04T15:19:25.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/355#issuecomment-3486522586"
+    }
+  ]
+}

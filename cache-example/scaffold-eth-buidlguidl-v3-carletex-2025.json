@@ -1,0 +1,121 @@
+{
+  "repo": {
+    "owner": "scaffold-eth",
+    "repo": "buidlguidl-v3",
+    "fullName": "scaffold-eth/buidlguidl-v3"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:38:07.981Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "buidlguidl-v3",
+        "fullName": "scaffold-eth/buidlguidl-v3"
+      },
+      "prNumber": 122,
+      "prTitle": "Use Ponder to get info on /admin/cohorts page",
+      "prUrl": "https://github.com/scaffold-eth/buidlguidl-v3/pull/122",
+      "type": "review",
+      "body": "Amazing stuff. Thanks Damu!",
+      "createdAt": "2025-02-14T18:00:33.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/buidlguidl-v3/pull/122#pullrequestreview-2618479225",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "buidlguidl-v3",
+        "fullName": "scaffold-eth/buidlguidl-v3"
+      },
+      "prNumber": 126,
+      "prTitle": "PR #126",
+      "prUrl": "https://github.com/scaffold-eth/buidlguidl-v3/pull/126",
+      "type": "issue_comment",
+      "body": "> I was getting CORS errors, so I used\r\n\r\nRegarding this, should we tweak next.config in SREv2 to allow calls from external domains?",
+      "createdAt": "2025-04-08T18:50:51.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/buidlguidl-v3/pull/126#issuecomment-2787384758"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "buidlguidl-v3",
+        "fullName": "scaffold-eth/buidlguidl-v3"
+      },
+      "prNumber": 126,
+      "prTitle": "PR #126",
+      "prUrl": "https://github.com/scaffold-eth/buidlguidl-v3/pull/126",
+      "type": "issue_comment",
+      "body": "Thanks for reviewing! Will merge later today when we launch v2.\r\n\r\nI'll do a CORS PR on SREv2. I think we should allow every domain for now (same as v1) so it doesn't break some integrations, scripts (I guess scripts will work fine tho, no CORS there), etc. We can always protect it if people are abusing it",
+      "createdAt": "2025-04-09T09:22:16.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/buidlguidl-v3/pull/126#issuecomment-2788970933"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "buidlguidl-v3",
+        "fullName": "scaffold-eth/buidlguidl-v3"
+      },
+      "prNumber": 130,
+      "prTitle": "update text in anonymousMenu",
+      "prUrl": "https://github.com/scaffold-eth/buidlguidl-v3/pull/130",
+      "type": "review",
+      "body": "This makes sense @AzimovS \r\n\r\nThanks my man",
+      "createdAt": "2025-07-17T16:59:36.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/buidlguidl-v3/pull/130#pullrequestreview-3030331089",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "buidlguidl-v3",
+        "fullName": "scaffold-eth/buidlguidl-v3"
+      },
+      "prNumber": 131,
+      "prTitle": "Add build page redirection to SRE website",
+      "prUrl": "https://github.com/scaffold-eth/buidlguidl-v3/pull/131",
+      "type": "review_comment",
+      "body": "But didn't we have a function that was converting one type of ID to another in a deterministic way??\r\n\r\nThat's better than having this huge file",
+      "createdAt": "2025-08-29T10:53:25.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/buidlguidl-v3/pull/131#discussion_r2309855206",
+      "path": "packages/react-app/data/build-redirects.json",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "buidlguidl-v3",
+        "fullName": "scaffold-eth/buidlguidl-v3"
+      },
+      "prNumber": 131,
+      "prTitle": "Add build page redirection to SRE website",
+      "prUrl": "https://github.com/scaffold-eth/buidlguidl-v3/pull/131",
+      "type": "review",
+      "body": "Working great, Pablo!\r\n\r\nI also added https://github.com/scaffold-eth/buidlguidl-v3/pull/131/commits/eddd4d7bc9bf8ed9532a8cedfb329107b5d6bbab for the /builds redirect.\r\n\r\n- in next.config if you visit the URL directly\r\n- Changed the link on the header (because the internal linking wasn't firing the redirect... at least locally)\r\n\r\nMake sense?",
+      "createdAt": "2025-09-03T09:11:50.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/buidlguidl-v3/pull/131#pullrequestreview-3179721873",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "buidlguidl-v3",
+        "fullName": "scaffold-eth/buidlguidl-v3"
+      },
+      "prNumber": 131,
+      "prTitle": "PR #131",
+      "prUrl": "https://github.com/scaffold-eth/buidlguidl-v3/pull/131",
+      "type": "issue_comment",
+      "body": "Note: Had to update the settings on Vercel to use a Node version > 18 (deprecated from September 1)",
+      "createdAt": "2025-09-03T09:18:54.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/buidlguidl-v3/pull/131#issuecomment-3248414042"
+    }
+  ]
+}

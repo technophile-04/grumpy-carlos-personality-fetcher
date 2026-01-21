@@ -1,0 +1,26 @@
+{
+  "repo": {
+    "owner": "BuidlGuidl",
+    "repo": "abi.ninja",
+    "fullName": "BuidlGuidl/abi.ninja"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:30:27.314Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "abi.ninja",
+        "fullName": "BuidlGuidl/abi.ninja"
+      },
+      "prNumber": 179,
+      "prTitle": "PR #179",
+      "prUrl": "https://github.com/BuidlGuidl/abi.ninja/pull/179",
+      "type": "issue_comment",
+      "body": "Hey @stephancill thanks for this. I think this is a cool feature.\r\n\r\nWe should rethink the position of the icon tho. The button at the most bottom right is usually reserved for the main action, so at least we should swap it (copy + send).\r\n\r\nBut maybe there is even a better place (or even icon) for it. Thoughts? @portdeveloper @technophile-04 ",
+      "createdAt": "2025-04-21T08:43:52.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/abi.ninja/pull/179#issuecomment-2817955629"
+    }
+  ]
+}

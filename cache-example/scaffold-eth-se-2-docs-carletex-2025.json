@@ -1,0 +1,75 @@
+{
+  "repo": {
+    "owner": "scaffold-eth",
+    "repo": "se-2-docs",
+    "fullName": "scaffold-eth/se-2-docs"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:40:34.173Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-docs",
+        "fullName": "scaffold-eth/se-2-docs"
+      },
+      "prNumber": 117,
+      "prTitle": "PR #117",
+      "prUrl": "https://github.com/scaffold-eth/se-2-docs/pull/117",
+      "type": "issue_comment",
+      "body": "Thanks Port!",
+      "createdAt": "2025-03-03T15:57:19.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-docs/pull/117#issuecomment-2694848210"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-docs",
+        "fullName": "scaffold-eth/se-2-docs"
+      },
+      "prNumber": 119,
+      "prTitle": "Add LLM-friendly documentation export for improved AI context",
+      "prUrl": "https://github.com/scaffold-eth/se-2-docs/pull/119",
+      "type": "review",
+      "body": "Hey Pablo, thanks for the PR. I think this is a cool feature to have. If we can generate both llm files on `build` it would be amazing, so we don't need to anything special when creating a PR (and doing it on build it's probably better than generating them with a GitHub action, as I initially suggested)\r\n\r\nI started to review the PR but got discouraged. There are a bunch of things that don't make sense/confusing/under-optimized (I'm guessing vibe coding) in 500+ lines of code. In this particular case (SE-2 docs) not sure if it makes sense to spend the required time to do a proper review.... which is a bit sad. So maybe if it works, we should just move forward.\r\n\r\nWhat we need to change is the hardcoded part, there are parts that don't make sense to me. Happy to give some feedback there.\r\n\r\nBut let's see what others think too.",
+      "createdAt": "2025-03-06T16:44:57.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-docs/pull/119#pullrequestreview-2665056234",
+      "state": "COMMENTED"
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-docs",
+        "fullName": "scaffold-eth/se-2-docs"
+      },
+      "prNumber": 125,
+      "prTitle": "Add `yarn account:reveal-pk` command explanations",
+      "prUrl": "https://github.com/scaffold-eth/se-2-docs/pull/125",
+      "type": "review_comment",
+      "body": "For me, it'd make sense to have `reveal-pk` as the last command\r\n\r\n- generate\r\n- account:import\r\n- account\r\n- reveal-pk\r\n\r\nNot a big deal tho! But maybe we could move the `account` instructions inside each hardhat / foundry tab so we can put it before reveal-pk? (even if we are duplicating it)",
+      "createdAt": "2025-05-20T14:29:37.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-docs/pull/125#discussion_r2098135010",
+      "path": "docs/deploying/deploy-smart-contracts.mdx",
+      "line": 92
+    },
+    {
+      "repo": {
+        "owner": "scaffold-eth",
+        "repo": "se-2-docs",
+        "fullName": "scaffold-eth/se-2-docs"
+      },
+      "prNumber": 128,
+      "prTitle": "Add intro video",
+      "prUrl": "https://github.com/scaffold-eth/se-2-docs/pull/128",
+      "type": "review",
+      "body": "Looks good!!! Thanks Pablo",
+      "createdAt": "2025-06-17T08:32:01.000Z",
+      "author": "carletex",
+      "url": "https://github.com/scaffold-eth/se-2-docs/pull/128#pullrequestreview-2934684245",
+      "state": "APPROVED"
+    }
+  ]
+}

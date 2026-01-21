@@ -1,0 +1,327 @@
+{
+  "repo": {
+    "owner": "BuidlGuidl",
+    "repo": "grants.buidlguidl.com",
+    "fullName": "BuidlGuidl/grants.buidlguidl.com"
+  },
+  "rangeLabel": "2025",
+  "fetchedAt": "2026-01-20T15:39:01.805Z",
+  "items": [
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 144,
+      "prTitle": "Update builders links from BG3.5 to SRE and SRE builds logic on grant completion",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/144",
+      "type": "review",
+      "body": "Thanks Pablo!\r\n\r\nMaybe we can do https://github.com/BuidlGuidl/grants.buidlguidl.com/issues/142 next?",
+      "createdAt": "2025-05-21T09:43:10.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/144#pullrequestreview-2857036744",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 145,
+      "prTitle": "Add SpeedRun Ethereum completed challenges eligibility criteria to apply for a grant",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/145",
+      "type": "review_comment",
+      "body": "I think is fine, since it's only used here.",
+      "createdAt": "2025-05-23T15:05:25.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/145#discussion_r2104793419",
+      "path": "packages/nextjs/utils/eligibility-criteria.ts",
+      "line": 6
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 145,
+      "prTitle": "Add SpeedRun Ethereum completed challenges eligibility criteria to apply for a grant",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/145",
+      "type": "review_comment",
+      "body": "maybe `completedChallengesCount &&` is enough? Not sure why we wan't to do the typeof thing.",
+      "createdAt": "2025-05-23T15:06:43.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/145#discussion_r2104795576",
+      "path": "packages/nextjs/app/_components/ApplyEligibilityLink.tsx",
+      "line": 39
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 145,
+      "prTitle": "Add SpeedRun Ethereum completed challenges eligibility criteria to apply for a grant",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/145",
+      "type": "review",
+      "body": "Thanks Pablo!\r\n\r\ntested locally and seems to be working great!",
+      "createdAt": "2025-06-02T10:57:32.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/145#pullrequestreview-2887861570",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 147,
+      "prTitle": "Lower grant amount according to new eth price 0.15 => 0.08",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/147",
+      "type": "review",
+      "body": "Thanks Pablo!",
+      "createdAt": "2025-08-05T06:35:28.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/147#pullrequestreview-3086795519",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 149,
+      "prTitle": "Add link to the build when submitted or completed",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/149",
+      "type": "review_comment",
+      "body": "from the call: let's check if we need the status checks or not",
+      "createdAt": "2025-08-06T10:23:45.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/149#discussion_r2256709097",
+      "path": "packages/nextjs/app/my-grants/page.tsx",
+      "line": 58
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 149,
+      "prTitle": "Add link to the build when submitted or completed",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/149",
+      "type": "review",
+      "body": "Thanks Pablo!",
+      "createdAt": "2025-08-07T21:08:22.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/149#pullrequestreview-3098719651",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 150,
+      "prTitle": "Mark SRE build as BG-granted when a grant is completed",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/150",
+      "type": "review_comment",
+      "body": "This works, and I know that it's very tempting to do so... but this is a bad practice in software (Tight coupling / layering violation). Basically, you are tying a database call with external side effects (changes non-atomic, harder to test, etc)\r\n\r\nThe easiest fix will be to move this to the route handler that it's using the \"reviewGrant\" function. Routes handlers can be seen as the \"orchestration layers\" so they can call different parts of the system.",
+      "createdAt": "2025-08-13T09:24:24.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/150#discussion_r2272681391",
+      "path": "packages/nextjs/services/database/grants.ts",
+      "line": 192
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 150,
+      "prTitle": "Mark SRE build as BG-granted when a grant is completed",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/150",
+      "type": "review_comment",
+      "body": "We'd have to check if this can be a problem in Vercel (same as if we in https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/150/files#r2272681391)\r\n\r\nBecause the request might be aborted if the Vercel function finished. In SRE, we use the \"waitUntil\" thing for async stuff.",
+      "createdAt": "2025-08-13T09:25:48.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/150#discussion_r2272687315",
+      "path": "packages/nextjs/services/database/grants.ts",
+      "line": 188
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 150,
+      "prTitle": "Mark SRE build as BG-granted when a grant is completed",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/150",
+      "type": "review",
+      "body": "Thanks Pablo, I'll sleep better tonight haha\r\n\r\nApproving, but letting the merge to you (in case you have to configure Vercel env vars or something before)",
+      "createdAt": "2025-08-13T14:48:24.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/150#pullrequestreview-3116388400",
+      "state": "APPROVED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review_comment",
+      "body": "We might not need this route? I think we could just fetch the data directly from SRE in the `useBGBuilderData` hook?\r\n\r\nIf not, we are making two requests:\r\n\r\nhook -> api/builders/[builderAddress] -> speedrunethereum.com/builders/{address}\r\n\r\nit could be just:\r\n\r\nhook -> speedrunethereum.com/builders/{address}",
+      "createdAt": "2025-08-18T16:02:06.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#discussion_r2282825820",
+      "path": "packages/nextjs/app/api/builders/[builderAddress]/route.ts",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review_comment",
+      "body": "Let's have this in a try / catch ",
+      "createdAt": "2025-08-18T16:04:59.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#discussion_r2282831644",
+      "path": "packages/nextjs/services/api/sre/builders.ts",
+      "line": 4
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review_comment",
+      "body": "I think this is a bit confusing. Is it hard to update the app to use the SRE naming?",
+      "createdAt": "2025-08-18T16:07:26.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#discussion_r2282836618",
+      "path": "packages/nextjs/services/api/sre/builders.ts",
+      "line": 15
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review_comment",
+      "body": "Same as the previous comment, if this is the SRE API, it should have the API naming",
+      "createdAt": "2025-08-18T16:07:49.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#discussion_r2282837384",
+      "path": "packages/nextjs/services/api/sre/schema.ts",
+      "line": 8
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review_comment",
+      "body": "I think we can remove more types here? Graduated, Status... and not sure about Build",
+      "createdAt": "2025-08-18T16:09:57.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#discussion_r2282842332",
+      "path": "packages/nextjs/services/database/schema.ts",
+      "line": 1
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review_comment",
+      "body": "and maybe some spacing between lines for better readability :P",
+      "createdAt": "2025-08-18T16:13:23.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#discussion_r2282850872",
+      "path": "packages/nextjs/services/api/sre/builders.ts",
+      "line": 4
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review",
+      "body": "Hey Pablo, thanks for this.\r\n\r\nI did a quick code review. Let me know if something is not clear or you need help.\r\n\r\n(There are also some conflicts from  main)\r\n\r\nThanks!!",
+      "createdAt": "2025-08-18T16:14:22.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#pullrequestreview-3128993373",
+      "state": "CHANGES_REQUESTED"
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review_comment",
+      "body": "For the future. We could have the proper type for the return from SRE\r\n\r\n```\r\n  userAddress: '',\r\n  role: '',\r\n  createdAt: '',\r\n  updatedAt: ',\r\n  ens: '',\r\n  ensAvatar: '',\r\n  socialTelegram: '',\r\n  socialX: '',\r\n  socialGithub: '',\r\n  socialInstagram: '',\r\n  socialDiscord: '',\r\n  socialEmail: '',\r\n  socialFarcaster: ',\r\n  location: '',\r\n  batchId: '',\r\n  batchStatus: '',\r\n  referrer: '',\r\n  originalUtmParams: ''\r\n```\r\n\r\nand use it in the app (instead of remapping some stuff in `fetchBuilderData`)",
+      "createdAt": "2025-08-20T08:34:17.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#discussion_r2287414446",
+      "path": "packages/nextjs/services/api/sre/schema.ts",
+      "line": 14
+    },
+    {
+      "repo": {
+        "owner": "BuidlGuidl",
+        "repo": "grants.buidlguidl.com",
+        "fullName": "BuidlGuidl/grants.buidlguidl.com"
+      },
+      "prNumber": 148,
+      "prTitle": "Fetch builders and user roles data from SRE",
+      "prUrl": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148",
+      "type": "review",
+      "body": "Looking great, Pablo, thank you!!\r\n\r\nPushed a few little tweaks.\r\n\r\nLet's keep an eye on and see if everything works as expected on the live site.",
+      "createdAt": "2025-08-20T08:36:02.000Z",
+      "author": "carletex",
+      "url": "https://github.com/BuidlGuidl/grants.buidlguidl.com/pull/148#pullrequestreview-3135413945",
+      "state": "APPROVED"
+    }
+  ]
+}
